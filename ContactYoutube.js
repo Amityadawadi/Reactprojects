@@ -15,8 +15,8 @@ const ContactYoutube = ({navigation}) => {
 
   const submit = () => {
     if(userName === "Amit" && password === "amity") {
-        Alert.alert(`Thank You ${userName}`);
-        navigation.navigate("Home", {myName: `${userName}`});
+        Alert.alert(`Welcome ${userName}`);
+        navigation.navigate("Home");
     } else {
         Alert.alert("Invalid username or password");
       }
