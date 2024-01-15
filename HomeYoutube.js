@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   mainHeader: {
-    fontSize: 35,
+    fontSize: 40,
     color: "#4c5dab",
     marginTop: 0,
     textTransform: "capitalize",
